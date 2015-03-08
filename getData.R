@@ -1,3 +1,4 @@
+# small script to download the zip, unarchive it, and read it it
 getData <- function(url = "http://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip") {
   temp_file <- tempfile()
   download.file(url, temp_file)

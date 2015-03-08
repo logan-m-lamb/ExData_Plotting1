@@ -1,4 +1,6 @@
 source("getData.R")
+library(dplyr)
+library(lubridate)
 
 # Download the data
 data <- getData("file://exdata-data-household_power_consumption.zip")
